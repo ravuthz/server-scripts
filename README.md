@@ -16,29 +16,26 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-node
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/init-nginx-for-laravel.sh | sudo -E bash -
 ```
 
-## Check
+## Check Nginx
 ```bash
 # Check nginx syntax
 nginx -t
 
-# Nginx status
+# Check Nginx status
 sudo systemctl status nginx
 
 # List deploy folder permission
 ls -lah /var/www/html
 
-# See nginx default configure
+# See nginx configures
 cat /etc/nginx/nginx.conf
-
 cat /etc/nginx/sites-available/default
-
 ```
 
-## Commone scripts
+## Common nginx scripts
 ```bash
 sudo systemctl status nginx
 
 sudo systemctl reload nginx
 sudo systemctl restart nginx
-
 ```

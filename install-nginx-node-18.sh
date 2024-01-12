@@ -10,5 +10,6 @@ sudo apt install nodejs -y
 
 node -v
 
-# pm2
-curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash -
+sudo npm install pm2 -g
+
+sudo npm install yarn -g

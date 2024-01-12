@@ -2,7 +2,6 @@
 
 composer install
 
-cp .env.example .env
 php artisan key:generate
 
 mv /var/www/html /var/www/html_$(date +"%Y%m%d_%H%M%S")

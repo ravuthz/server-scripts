@@ -13,6 +13,7 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-node
 
 # After install php, nginx and laravel project cloned
 ```bash
+# Make we already configure .env
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/init-nginx-for-laravel.sh | sudo -E bash -
 ```
 

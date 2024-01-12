@@ -1,5 +1,8 @@
 # Server Scripts
 
+
+
+
 # Install git, nginx, php 8.2 for laravel
 ```bash
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-php-8.2.sh | sudo -E bash -
@@ -39,4 +42,19 @@ sudo systemctl status nginx
 
 sudo systemctl reload nginx
 sudo systemctl restart nginx
+
+# Configure ssh host (optional)
+code ~/.ssh/config
+
+# Example
+# Host REPLACE_HOST_NAME
+#   HostName REPLACE_HOST_IP
+#   User REPLACE_USER_NAME
+
+# Read default id_rsa key
+cat ~/.ssh/id_rsa.pub
+
+# Copy host key to remote server
+ssh-copy-id user@remote.server.location
+
 ```

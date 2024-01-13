@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo -s
+sudo NEEDRESTART_MODE=a apt-get dist-upgrade --yes
+
 composer install
 
 php artisan key:generate

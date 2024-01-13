@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo -s
 sudo NEEDRESTART_MODE=a apt-get dist-upgrade --yes
 
 sudo apt update 

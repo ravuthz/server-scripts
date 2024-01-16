@@ -1,3 +1,5 @@
+#!/bin/bash
+
 [ ! -f .env ] || export $(sed 's/#.*//g' .env | xargs)
 [ ! -f .env.local ] || export $(sed 's/#.*//g' .env.local | xargs)
 

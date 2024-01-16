@@ -20,7 +20,7 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/init-nginx-for-lar
 # Deploy static site via SSH and SCP
 ## Script for deploy dist to /var/www/html via ssh and scp
 ```bash
-curl -o deploy.sh https://github.com/ravuthz/server-scripts/blob/master/ssh-deploy-dist.sh
+curl -o deploy.sh https://raw.githubusercontent.com/ravuthz/server-scripts/master/ssh-deploy-dist.sh
 ```
 ## Execute deploy.sh
 ```bash

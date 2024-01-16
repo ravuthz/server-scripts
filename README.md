@@ -1,8 +1,5 @@
 # Server Scripts
 
-
-
-
 # Install git, nginx, php 8.2 for laravel
 ```bash
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-php-8.2.sh | sudo -E bash -
@@ -20,11 +17,12 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-node
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/init-nginx-for-laravel.sh | sudo -E bash -
 ```
 
+# Deploy static site via SSH and SCP
 ## Script for deploy dist to /var/www/html via ssh and scp
 ```bash
 curl -o deploy.sh https://github.com/ravuthz/server-scripts/blob/master/ssh-deploy-dist.sh
 ```
-### Execute deploy.sh
+## Execute deploy.sh
 ```bash
 chmod +x deploy.sh && ./deploy.sh
 ```

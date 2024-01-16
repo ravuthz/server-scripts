@@ -20,6 +20,17 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-node
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/init-nginx-for-laravel.sh | sudo -E bash -
 ```
 
+## Script for deploy dist to /var/www/html via ssh and scp
+```bash
+curl -o deploy.sh https://github.com/ravuthz/server-scripts/blob/master/ssh-deploy-dist.sh
+```
+### Execute deploy.sh
+```bash
+chmod +x deploy.sh && ./deploy.sh
+```
+
+
+
 ## Check Nginx
 ```bash
 # Check nginx syntax

@@ -3,6 +3,7 @@
 # Check Ubuntu
 
 ```bash
+# Execute locally via sh
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | sudo -E bash -
 ```
 

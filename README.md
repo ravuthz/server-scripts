@@ -1,5 +1,16 @@
 # Server Scripts
 
+# Check Ubuntu
+
+```bash
+curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | sudo -E bash -
+```
+
+```bash
+# Execute remotely via ssh 
+curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | ssh user@any-server
+```
+
 # Install git, nginx, php 8.2 for laravel
 ```bash
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-php-8.2.sh | sudo -E bash -

@@ -10,12 +10,12 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | 
 # Check Linux & Unix
 
 ```bash
-curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-linux.sh | ssh user@any-server
+curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | ssh user@any-server
 ```
 
 ```bash
 # Execute remotely via ssh 
-curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-ubuntu.sh | ssh user@any-server
+curl -sL https://github.com/ravuthz/server-scripts/raw/master/check-linux.sh | ssh user@any-server
 ```
 
 # Install git, nginx, php 8.2 for laravel

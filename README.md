@@ -28,6 +28,17 @@ curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-php-
 curl -sL https://github.com/ravuthz/server-scripts/raw/master/install-nginx-node-18.sh | sudo -E bash -
 ```
 
+# Install DockerCE
+
+Using wget
+```bash
+wget -O - https://raw.githubusercontent.com/ravuthz/docker-ce/master/install.sh | bash
+```
+
+Using curl
+```bash
+curl https://raw.githubusercontent.com/ravuthz/docker-ce/master/install.sh | sudo bash -s -
+```
 
 # After install php, nginx and laravel project cloned
 ```bash

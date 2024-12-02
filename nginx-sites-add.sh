@@ -11,7 +11,7 @@ PHP_FPM="php$PHP_VERSION-fpm"
 PHP_FPM_SOCK=${PHP_FPM_SOCK:-"unix:/var/run/php/php$PHP_VERSION-fpm.sock"}
 
 # Generate the site.conf file
-cat <<EOF > "$OUTPUT_FILE"
+cat <<EOF > "/etc/nginx/sites-enabled/$OUTPUT_FILE"
 server {
     listen $NGINX_SERVER_PORT;
 

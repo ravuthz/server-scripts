@@ -3,7 +3,7 @@
 # Output file name
 OUTPUT_FILE=${1}
 
-PHP_VERSION=php -v | awk '/^PHP/{print $2}' | cut -d. -f1,2
+PHP_VERSION=$(php -v | awk '/^PHP/{print $2}' | cut -d. -f1,2)
 
 NGINX_SERVER_PORT=${2:-80}
 NGINX_SERVER_ROOT=${3:-"/var/www/html"}
